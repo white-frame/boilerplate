@@ -12,7 +12,8 @@ This project is a starting point showing the usage of the full power of the [Whi
 * [Routes](https://github.com/white-frame/boilerplate/blob/master/app/Http/routes.php#L7) : Linking a `UserController`into the `users` endpoint.
 * [UserController](https://github.com/white-frame/boilerplate/blob/master/app/Http/Controllers/UserController.php) : This controller extends `WhiteFrame\Http\Controller\Resource\Controller` features for automatically handling all actions except `update` witch require a special logic with the password input.
 * [User](https://github.com/white-frame/boilerplate/blob/master/app/User.php) : The User Model with the [Helloquent configuration](https://github.com/white-frame/boilerplate/blob/master/app/User.php#L19-L23)
- * [UserPresenter](https://github.com/white-frame/boilerplate/blob/master/app/Presenters/UserPresenter.php)
- * [UserRenderer](https://github.com/white-frame/boilerplate/blob/master/app/Renderers/UserRenderer.php)
- * [UserTransformer](https://github.com/white-frame/boilerplate/tree/master/app/Transformers/UserTransformer.php) : TODO
- * [UserRepository](https://github.com/white-frame/boilerplate/blob/master/app/Repositories/UserRepository.php)
+ * [UserPresenter](https://github.com/white-frame/boilerplate/blob/master/app/Presenters/UserPresenter.php) : Allows you to customize atributes presentation with `$user->present()->email` into your views.
+ * [UserRenderer](https://github.com/white-frame/boilerplate/blob/master/app/Renderers/UserRenderer.php) : Allows you to specify rendering logic (`index`, `show`, `create`, `edit`).
+ * [UserTransformer](https://github.com/white-frame/boilerplate/tree/master/app/Transformers/UserTransformer.php) : **TODO** Allows you to transform your object into arrays for API displaying.
+ * [UserRepository](https://github.com/white-frame/boilerplate/blob/master/app/Repositories/UserRepository.php) : Bring the repository pattern into your application.
+ * endpoint : The same base url linked into your route resource.
