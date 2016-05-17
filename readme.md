@@ -16,4 +16,4 @@ This project is a starting point showing the usage of the full power of the [Whi
  * [UserRenderer](https://github.com/white-frame/boilerplate/blob/master/app/Renderers/UserRenderer.php) : Allows you to specify rendering logic (`index`, `show`, `create`, `edit`).
  * **TODO** [UserTransformer](https://github.com/white-frame/boilerplate/tree/master/app/Transformers/UserTransformer.php) : Allows you to transform your object into arrays for API displaying.
  * [UserRepository](https://github.com/white-frame/boilerplate/blob/master/app/Repositories/UserRepository.php) : Bring the repository pattern into your application.
- * endpoint : The same base url linked into your route resource.
+ * [endpoint](https://github.com/white-frame/boilerplate/blob/master/app/User.php#L23) : The same base url linked into your route resource.
