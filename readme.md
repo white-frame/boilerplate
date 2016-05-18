@@ -4,8 +4,8 @@ This project is a starting point showing the usage of the full power of the [Whi
 
 * **Action** : listing, creating, editing and deleting eloquent models.
 * **Flash message** : Simple action confirmation based on [Laracast/Flash](https://github.com/laracasts/flash) (not included in the project)
-* **RESTful URL** : With built-in Resource Controller
-* **API-Ready** : Build-in Resource Controller handle multiple output format including `JSON` AND `JSONP` responses.
+* **RESTful URL** : Built-in Resource Controller with REST Urls.
+* **API-Ready** : Built-in Resource Controller handle multiple output format including `JSON` AND `JSONP` responses.
 
 #### Important Elements
 
