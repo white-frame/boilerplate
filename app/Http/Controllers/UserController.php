@@ -10,6 +10,8 @@ use WhiteFrame\Http\Controller\Resource\Controller;
 class UserController extends Controller
 {
 	protected $entity = 'App\User';
+	protected $views = 'users';
+	protected $endpoint = 'users';
 
 	public function update(Request $request, $id)
 	{

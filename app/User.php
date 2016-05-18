@@ -17,10 +17,9 @@ class User extends Model implements AuthenticatableContract,
     use Authenticatable, Authorizable, CanResetPassword;
 
     protected $presenter = 'App\Presenters\UserPresenter';
-    protected $renderer = 'App\Renderers\UserRenderer';
     protected $transformer = 'App\Transformers\UserTransformer';
     protected $repository = 'App\Repositories\UserRepository';
-    protected $endpoint = 'users';
+    protected $controller = 'App\Http\Controllers\UserController';
 
     /**
      * The database table used by the model.
